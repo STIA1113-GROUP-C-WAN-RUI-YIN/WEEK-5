@@ -17,7 +17,7 @@ public class Assignment1B {
 		System.out.println("Please input your total loan.");
 		double loan = scan.nextDouble();
 		System.out.println("Please input your loan year.");
-		double loanYear = scan.nextDouble();
+		int loanYear = scan.nextInt();
 		
 		//calculation
 		double interestPerMonth = loan * rate1 /100;
