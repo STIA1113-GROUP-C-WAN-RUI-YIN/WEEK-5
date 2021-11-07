@@ -32,11 +32,11 @@ public class Assignment1B {
 		
 		
 		//Printing
-		System.out.print("Sum of interest  : RM");
+		System.out.print("Sum of interest  : $");
 		System.out.printf("%.2f%n", totalInterest);
-		System.out.print("Monthly payment  : RM");
+		System.out.print("Monthly payment  : $");
 		System.out.printf("%.2f%n", monthlyPayment);
-		System.out.print("Total of payment : RM");
+		System.out.print("Total of payment : $");
 		System.out.printf("%.2f%n", totalPayment);
 	}
 
