@@ -1,0 +1,35 @@
+package Assignment;
+
+public class Assignment1B {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*Say your brother wants to buy a used car for $5,000 and has only $2,000 for the down payment.
+		He hits you up for a loan for the remaining $3,000.
+		If the length of the loan is five years and he’s paying you simple interest of 3.5 percent per month to borrow the additional $3,000,
+		Calculate the sum of interest, monthly payment and total of payment.*/
+		//loan =3000, simple interest = 3.5% per month, loan year = 5
+		
+		//calculation
+		int loan = 3000;
+		double interestPerMonth = loan * 3.5 /100;
+		double interestPerYear = interestPerMonth * 12;
+		//interest per month * 12 months(a year)
+		double totalInterest = interestPerYear * 5;
+		//total interest for 5 years = interestPerYear * 5 (years)
+		double monthlyPayment = (3000 / (5*12)) + interestPerMonth;
+		//monthly payment = total loan 3000 / 60 months + monthly interest
+		double totalPayment = monthlyPayment * 5 * 12;
+		//total payment = monthly payment * 60 months
+		
+		
+		//Printing
+		System.out.print("Sum of interest  : RM");
+		System.out.printf("%.2f%n", totalInterest);
+		System.out.print("Monthly payment  : RM");
+		System.out.printf("%.2f%n", monthlyPayment);
+		System.out.print("Total of payment : RM");
+		System.out.printf("%.2f%n", totalPayment);
+	}
+
+}
