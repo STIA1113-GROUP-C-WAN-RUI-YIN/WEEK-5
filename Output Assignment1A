@@ -1,0 +1,17 @@
+Please enter the number of items : 
+3
+Please put 0 if it is not relevant.
+Enter the price of first item : RM20
+Please enter the quantity of first item : 
+2
+Enter the price of second item : RM50
+Please enter the quantity of second item : 
+3
+Enter the price of third item : RM35.79
+Please enter the quantity of third item : 
+1
+Congratulations, you are entitled for 20% discount. 
+The total price before discount       : RM225.79
+The discount recieved is 20%.
+The discount price                    : RM45.16
+The total amount that need to be paid : RM180.63
