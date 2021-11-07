@@ -10,7 +10,7 @@ public class Assignment1B {
 		Calculate the sum of interest, monthly payment and total of payment.*/
 		//loan =3000, simple interest = 3.5% per month, loan year = 5
 		
-		
+		//To get the input of loan, monthly rate and loan year
 		Scanner scan = new Scanner (System.in);
 		System.out.println("Please input your monthly rate.");
 		double rate1 = scan.nextDouble();
@@ -31,7 +31,7 @@ public class Assignment1B {
 		//total payment = monthly payment * total months
 		
 		
-		//Printing
+		//Printing of sum of interest, monthly payment and total payment
 		System.out.print("Sum of interest  : $");
 		System.out.printf("%.2f%n", totalInterest);
 		System.out.print("Monthly payment  : $");
